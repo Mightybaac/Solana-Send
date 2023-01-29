@@ -5,17 +5,17 @@ This code also uses client.transferWithSignature instead of client.transfer, whi
 Keep in mind that this code is still just a simple example and does not take into account important considerations such as error handling and further security measures. Before using this code on the mainnet, you should thoroughly test it and make sure it meets your requirements and security standards.
 
 
-(Adding this code to CRM-on-Rails)
+(Adding this code to CRM-in-Rails)
 
-To add this code to the above CRM code, you would need to integrate the Solana blockchain functionality into your CRM application. Here are the general steps to do this:
+To add this code to the CRM-in-Rails, you would need to integrate the Solana blockchain functionality into your CRM application. Here are the general steps to do this:
 
-Create a new file in your CRM application to store the Solana functionality, for example solana.js.
+Create a new file in your CRM-in-Rails to store the Solana functionality, for example solana.js.
 
 Copy the code you provided into this new file.
 
-In your CRM code, import the solana.js file where you need to use the Solana functionality, for example in the customers controller or model.
+In your CRM-in-Rails code, import the solana.js file where you need to use the Solana functionality, for example in the customers controller or model.
 
-Call the checkBalance() and sendTransaction() functions as needed in your CRM code.
+Call the checkBalance() and sendTransaction() functions as needed in your CRM-in-Rails code.
 
 Note that this code assumes that you have a secure location to store private keys, and that you have a Solana node running and accessible. You will also need to install the @solana/web3.js library by running npm install @solana/web3.js in your CRM application directory.
 
