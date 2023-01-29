@@ -1,5 +1,5 @@
 # Keep in mind that you'll need to make sure the required dependencies (@solana/web3.js and fs) are installed for this to work.
-# In your CRM-in-Rails code, import the Solana-Send.js file where you need to use the Solana functionality, for example in the customers controller or model.
+# In your CRM-in-Rails code, import the Add-to-CRM.rb file where you need to use the Solana functionality, for example in the customers controller or model.
 class CustomersController < ApplicationController
   before_action :set_customer, only: [:show, :edit, :update, :destroy]
   load_and_authorize_resource
