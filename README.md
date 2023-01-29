@@ -9,7 +9,7 @@ Keep in mind that this code is still just a simple example and does not take int
 
 To add this code to the CRM-in-Rails, you would need to integrate the Solana blockchain functionality into your CRM application. Here are the general steps to do this:
 
-Create a new file in your CRM-in-Rails to store the Solana functionality, for example solana.js.
+Create a new file in your CRM-in-Rails to store the Solana functionality, for example Solana-Send.js.
 
 Copy Solana-Send.js code into this new file.
 
@@ -19,4 +19,4 @@ Call the checkBalance() and sendTransaction() functions as needed in your CRM-in
 
 Note that this code assumes that you have a secure location to store private keys, and that you have a Solana node running and accessible. You will also need to install the @solana/web3.js library by running npm install @solana/web3.js in your CRM application directory.
 
-Look to Add-to-CRM.rs file for help.
+Look to Add-to-CRM.rb file for help.
