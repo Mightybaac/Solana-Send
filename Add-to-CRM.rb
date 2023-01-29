@@ -1,3 +1,4 @@
+# Keep in mind that you'll need to make sure the required dependencies (@solana/web3.js and fs) are installed for this to work.
 class CustomersController < ApplicationController
   before_action :set_customer, only: [:show, :edit, :update, :destroy]
   load_and_authorize_resource
