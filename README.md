@@ -11,9 +11,9 @@ To add this code to the CRM-in-Rails, you would need to integrate the Solana blo
 
 Create a new file in your CRM-in-Rails to store the Solana functionality, for example solana.js.
 
-Copy the code you provided into this new file.
+Copy Solana-Send.js code into this new file.
 
-In your CRM-in-Rails code, import the solana.js file where you need to use the Solana functionality, for example in the customers controller or model.
+In your CRM-in-Rails code, import the Solana-Send.js file where you need to use the Solana functionality, for example in the customers controller or model.
 
 Call the checkBalance() and sendTransaction() functions as needed in your CRM-in-Rails code.
 
