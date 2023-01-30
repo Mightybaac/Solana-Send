@@ -4,7 +4,7 @@ This code also uses client.transferWithSignature instead of client.transfer, whi
 
 Keep in mind that this code is still just a simple example and does not take into account important considerations such as error handling and further security measures. Before using this code on the mainnet, you should thoroughly test it and make sure it meets your requirements and security standards.
 
-
+___________________________________________________________________________________________________________________________________________________________
 (Adding this code to CRM-in-Rails)
 
 To add this code to the CRM-in-Rails, you would need to integrate the Solana blockchain functionality into your CRM application. Here are the general steps to do this:
