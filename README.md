@@ -18,5 +18,5 @@ In your CRM-in-Rails code, import the Add-to-CRM.rb file where you need to use t
 Call the checkBalance() and sendTransaction() functions as needed in your CRM-in-Rails code.
 
 Note that this code assumes that you have a secure location to store private keys, and that you have a Solana node running and accessible. You will also need to install the @solana/web3.js library by running npm install @solana/web3.js in your CRM application directory.
-
+_____________________________________________________________________________________________________________________________________________________________________
 Look to Add-to-CRM.rb file for help.
